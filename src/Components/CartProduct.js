@@ -24,7 +24,7 @@ function CartProduct(props) {
 
     return (
 
-            <div className="row mt-3 mx-1 align-items-center row-item">
+            <div className="row my-3 mx-3 align-items-center row-item">
                 <div className="col"><img src="images/cart_images/cartImg1.png" className="cart-image" /></div>
                 <div className="col fw-bold">{title}</div>
                 <div className="col">
@@ -34,7 +34,7 @@ function CartProduct(props) {
                         <div className="col-auto counter"><button onClick={countPlusOne} type="button" className="btn btn-success">+</button></div>
                     </div>
                 </div>
-                <div className="col"><span id="total1">{price} </span>EUR</div>
+                <div className="col"><span>{price} </span>EUR</div>
                 <div className="col fw-bold"><span id="total2">{totalProductPrice} </span>EUR</div>
                 <div className="col"><button type="button" class="btn btn-dark">Remove</button></div>
             </div>
