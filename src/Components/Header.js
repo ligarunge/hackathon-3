@@ -15,7 +15,7 @@ function Header() {
                             <Link className="nav-link active text-white" to='/'>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-secondary" to='/'>Categories</Link>
+                            <Link className="nav-link text-secondary" to='/categories'>Categories</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link text-secondary" to='/cart'>Cart</Link>
