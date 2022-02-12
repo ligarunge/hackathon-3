@@ -6,8 +6,8 @@ function Header() {
         <div>
             <nav className="navbar navbar-light bg-dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand text-white" href="#">
-                        <img src="/images/logo_noBackground.png" alt="" width="35" height="40" className="d-inline-block align-text-center" />
+                    <a className="navbar-brand display-1 text-white" href="#">
+                        <img src="/images/logo_noBackground.png" alt="" width="35" height="40" className="d-inline-block pb-1 mx-2 align-text-center" />
                         PearTech
                     </a>
                     <ul className="nav justify-content-center">
@@ -15,7 +15,7 @@ function Header() {
                             <Link className="nav-link active text-white" to='/'>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-secondary" to='/'>Categories</Link>
+                            <Link className="nav-link text-secondary" to='/categories'>Categories</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link text-secondary" to='/cart'>Cart</Link>

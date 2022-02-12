@@ -1,0 +1,44 @@
+import { Link } from "react-router-dom";
+import CategoryItem from "../Components/CategoryItem";
+import "./Categories.css"
+import categories from "../Data/categories";
+
+
+ 
+
+function Categories() {
+  return (
+    <div>
+        <div className="" style={{  
+                    backgroundImage: "url(/images/keyboard-present.jpg)",               
+                    backgroundPosition: 'top',
+                    backgroundSize: '100%',
+                    backgroundRepeat: 'no-repeat'
+        }}>
+            <div className="container">
+                <div className="row justify-content-end display-5">
+                    <div className="col-md-4 mt-5">
+                        <div className="row justify-content-end">
+                        Find the best
+                        </div>
+                        <div className="row justify-content-end">
+                        products for your
+                        </div>
+                        <div className="row justify-content-end">
+                        workspace
+                        </div>
+                    </div>
+                </div>  
+            <div className="row">
+              <p className="display-3">Categories</p>  
+            </div>
+            <CategoryItem name={categories[0].name} description={categories[0].description} imageUrl={categories[0].imageUrl}/>
+            <CategoryItem name={categories[1].name} description={categories[1].description} imageUrl={categories[1].imageUrl}/>
+            <CategoryItem name={categories[2].name} description={categories[2].description} imageUrl={categories[2].imageUrl}/>   
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Categories;
