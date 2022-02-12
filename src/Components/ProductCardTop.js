@@ -5,7 +5,7 @@ export default function ProductCardTop() {
     
     return (
         <div>
-            <h1 className="mt-3">Category 1</h1>
+            <h1 className="m-3 display-5">Mice</h1>
             <div className="category-top mt-5 me-5 mb-5">
                 <img src="/images/product_images/mouse1-img-1.png" alt="mouse" className="category-image-left"/>
                 <div className="category-text ms-5">
