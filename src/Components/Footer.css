@@ -1,0 +1,5 @@
+.bckgr-image-footer {
+    background-image: url('/images/footer-bckgr.jpg');
+    background-size:cover;
+   background-repeat:no-repeat;
+}
