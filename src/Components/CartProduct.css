@@ -23,3 +23,8 @@ padding-right: 0.85rem;
 .row-item {
     border: 1px solid rgb(222, 226, 230);;
 }
+
+button:hover {
+    text-decoration: none !important;
+    color: rgb(33, 37, 41) !important
+  }
