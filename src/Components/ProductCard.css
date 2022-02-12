@@ -1,0 +1,84 @@
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    overflow-x: auto;
+}
+
+.card {
+    border-radius: 5%;
+    padding: 1rem;
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column; 
+    position: relative;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.card--image {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.2rem;
+    font-weight: bold
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+    margin-right: 0.5rem
+}
+
+.card--price {
+    font-size: 1.1rem
+}
+
+.card--badge {
+    border-radius: 5px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: red;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+.category-top {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.category-image-left {
+    max-width: 200px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+
+}
+
+.all-cards {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.category-text {
+    max-width: 900px;
+}
