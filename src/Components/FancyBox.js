@@ -1,6 +1,6 @@
 function FancyBox() {
     return (
-        <div className="col-md-4 m-3 p-3 rounded" style={{backgroundColor:'whitesmoke'}}>
+        <div className=" m-3 p-3 rounded" style={{backgroundColor:'whitesmoke'}}>
             <div className="row">
                 
                 <div className="col-12">
