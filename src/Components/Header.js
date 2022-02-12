@@ -18,7 +18,7 @@ function Header() {
                             <Link className="nav-link text-secondary" to='/'>Categories</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-secondary" to='/'>Cart</Link>
+                            <Link className="nav-link text-secondary" to='/cart'>Cart</Link>
                         </li>
                     </ul>
                 </div>
