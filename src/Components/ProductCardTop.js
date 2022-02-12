@@ -18,7 +18,4 @@ export default function ProductCardTop() {
             </div>
         </div>
     )
-
-    
 }
- 
