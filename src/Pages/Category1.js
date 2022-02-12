@@ -4,7 +4,7 @@ import ProductCardBottom from '../Components/ProductCardBottom'
 
 function Category1() {
     return (
-        <div className="ms-5">
+        <div className="category-page ms-5">
             <ProductCardTop />
             <ProductCardBottom />
         </div>
