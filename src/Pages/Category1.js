@@ -1,8 +1,9 @@
 import React from 'react'
 import ProductCardTop from '../Components/ProductCardTop'
 import ProductCardBottom from '../Components/ProductCardBottom'
-
-function Category1() {
+ 
+ 
+export default function Category1() {
     return (
         <div className="category-page ms-5">
             <ProductCardTop />
@@ -10,4 +11,3 @@ function Category1() {
         </div>
     )
 }
-export default Category1;
