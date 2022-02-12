@@ -1,14 +1,14 @@
 import React from "react"
 import "./ProductCard.css"
-
+ 
 export default function ProductCardTop() {
-    
+   
     return (
         <div>
             <div className="category-top-header">
                 <h1 className="category-header mt-3">Mice</h1>
             </div>
-            
+           
             <div className="category-top mt-5 me-5 mb-5">
                 <img src="/images/product_images/mouse1-img-3.png" alt="mouse" className="category-image-left"/>
                 <div className="category-text ms-5">
