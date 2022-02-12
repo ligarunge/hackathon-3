@@ -1,0 +1,17 @@
+.d-block {
+  height: 940px;
+  object-fit: cover;
+}
+
+.card-body {
+  border: 3px yellow;
+}
+
+.card-image-overlay {
+  display: flex;
+  width: 50%;
+  height: 200px;
+  margin: auto;
+  align-items:center;
+  justify-content:center;
+ }
