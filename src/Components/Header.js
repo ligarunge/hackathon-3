@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import "./Header.css"
 
 function Header() {
     return (
@@ -10,13 +11,13 @@ function Header() {
                         PearTech
                     </a>
                     <ul className="nav justify-content-center">
-                        <li className="nav-item">
+                        <li className="nav-item navigate-home">
                             <Link className="nav-link active" to='/'>Home</Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item navigate-home">
                             <Link className="nav-link" to='/categories'>Categories</Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item navigate-home">
                             <Link className="nav-link" to='/cart'>Cart</Link>
                         </li>
                     </ul>
