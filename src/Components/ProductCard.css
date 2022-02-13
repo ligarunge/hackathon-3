@@ -82,3 +82,9 @@
 .category-text {
     max-width: 900px;
 }
+
+.category-top-header {
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+}
