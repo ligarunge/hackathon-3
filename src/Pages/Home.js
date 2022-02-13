@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import Carousel from "./Carousel";
 
 
@@ -8,9 +9,8 @@ function Home() {
 
       <div className="container">
           <div className="display-5 my-4">Categories</div>
-        </div>
+      </div>
     </div>
-
   )
 }
 
