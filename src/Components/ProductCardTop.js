@@ -5,6 +5,15 @@ export default function ProductCardTop() {
    
     return (
         <div className="header-colored">
+            <div className="row pt-4 ps-5">
+                    <nav aria-label="breadcrumb">
+                        <ol className="breadcrumb">
+                            <li className="breadcrumb-item"><a className="link-none" href="/">Home</a></li>
+                            <li className="breadcrumb-item"><a className="link-none" href="/categories">Categories</a></li>
+                            <li className="breadcrumb-item active" aria-current="category">Mice</li>
+                        </ol>
+                    </nav>
+                </div>
             <div className="category-top-header">
                 <h1 className="category-header mt-3 display-3">Mice</h1>
             </div>
