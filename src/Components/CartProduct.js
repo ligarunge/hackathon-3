@@ -34,10 +34,10 @@ function CartProduct(props) {
                 <div className="col-2"><img src={image} className="cart-image" /></div>
                 <div className="col-2"><h6>{title}</h6></div>
                 <div className="col-2">
-                    <div className="row d-flex justify-content-start">
-                        <div className="col-auto counter"><button onClick={countMinusOne} type="button" className="btn btn-success btn-minus">-</button></div>
-                        <div className="col-auto counter">{quantity}</div>
-                        <div className="col-auto counter"><button onClick={countPlusOne} type="button" className="btn btn-success">+</button></div>
+                    <div className="row" style={{maxWidth: "9rem"}}>
+                        <div className="col counter"><button onClick={countMinusOne} type="button" className="btn btn-success btn-minus">-</button></div>
+                        <div className="col counter">{quantity}</div>
+                        <div className="col counter"><button onClick={countPlusOne} type="button" className="btn btn-success">+</button></div>
                     </div>
                 </div>
                 <div className="col"><span>{price} </span>EUR</div>
