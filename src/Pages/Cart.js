@@ -5,7 +5,7 @@ import CartSummaryTab from "../Components/CartSummaryTab";
 
 function Cart() {
     return (
-        <div className="container">
+        <div className="container container-height">
 
             <div className="col mt-3 mb-4">
                 <h2>Cart</h2>
@@ -34,9 +34,6 @@ function Cart() {
                 </div>
             </div>
         </div>
-
-
-
     )
 }
 
