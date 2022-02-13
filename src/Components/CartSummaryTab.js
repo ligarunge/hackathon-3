@@ -36,7 +36,7 @@ function CartSummaryTab() {
             </div>
             <div><CartProduct title="Pop Mouse" price="29.99" image="images/cart_images/cartImg1.png"/></div>
             <div><CartProduct title="Bright Mouse" price="49.99" image="images/cart_images/cartImg2.png"/></div>
-            <div><CartProduct title="Pink Mouse" price="99.99"image="images/cart_images/cartImg3.png"/></div>
+            <div><CartProduct title="Black Mouse" price="99.99"image="images/cart_images/cartImg3.png"/></div>
             </div>
         </div>
         </div>

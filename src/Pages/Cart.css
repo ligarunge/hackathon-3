@@ -2,7 +2,7 @@
     color: rgb(33, 37, 41)
   }
 
-a:hover {
+.nav-link:hover {
   text-decoration: none;
   color: rgb(33, 37, 41)
 }
