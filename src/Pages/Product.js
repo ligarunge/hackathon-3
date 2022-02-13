@@ -12,6 +12,16 @@ function Product() {
                     
             }}>
                 <div className="container">
+                <div className="row pt-1">
+                    <nav aria-label="breadcrumb">
+                        <ol className="breadcrumb">
+                            <li className="breadcrumb-item"><a className="link-none" href="/">Home</a></li>
+                            <li className="breadcrumb-item"><a className="link-none" href="/categories">Categories</a></li>
+                            <li className="breadcrumb-item"><a className="link-none" href="/category">Mice</a></li>
+                            <li className="breadcrumb-item active" aria-current="page">POP Mouse</li>
+                        </ol>
+                    </nav>
+                </div>
                     <div className="row text-center">
                         <div className="col-12 mt-5">
                             <p className="display-1">POP mouse</p>
@@ -23,7 +33,7 @@ function Product() {
                                 <span className="display-6">€29.99</span> 
                                 </div>
                                 <div className="col-md-6">
-                                    <a className="btn btn-light btn-lilac" href="/cart">BUY NOW</a>
+                                    <a className="btn btn-light btn-lilac" href="/cart">Buy now</a>
                                   
                                 </div>
                             
@@ -45,9 +55,10 @@ function Product() {
                                     <p className="display-6">Choose your aesthetic</p>
                                 </div>
                             </div>
-                            <div className="row">
+                            <div className="row align-items-center">
                               <MouseColorChange />
                             </div>
+                           
                         </div>
                     </div>
                 </div>
