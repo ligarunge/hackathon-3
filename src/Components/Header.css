@@ -1,0 +1,6 @@
+.navigate-home .nav-link{
+  color: white;
+}
+.navigate-home .nav-link:hover{
+  color: rgb(200, 173, 224);
+}
