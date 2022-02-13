@@ -47,30 +47,33 @@ function Carousel() {
           <div className="carousel-item">
             <div className="row">
               <div className="col g-0">
-                <div class="" style={{backgroundColor:"black", height:"900px"}}>
-                  {/* <div className="container"> */}
-                    <div className="col-md-4 align-self-center">
-                            <FancyBox /> 
-                            <div className="row m-3 p-3 rounded align-items-center" style={{backgroundColor:'whitesmoke'}}>
-                                <div className="col-md-6">
-                                <span className="display-6">€29.99</span> 
-                                </div>
-                                <div className="col-md-6">
-                                    <a className="btn btn-light btn-lilac" href="/cart">BUY NOW</a>
-                                  
-                                </div>
-                            
-                            </div>
+                <div class="" style={{ backgroundColor: "black", height: "900px" }}>
+                  <div className="row align-items-center">
+                    <div className="col-md-4 display-5 text-white ps-5 pt-5"></div>
+                    <div className="col-md-4 pt-5">
+                      <FancyBox />
+                    </div>
+                    <div className="col-md-4">
+                      <div className="row m-3 p-3 rounded align-items-center" style={{ backgroundColor: 'whitesmoke' }}>
+                        <div className="col-md-6">
+                          <span className="display-6">€29.99</span>
                         </div>
-                  {/* </div> */}
+                        <div className="col-md-6">
+                          <a className="btn btn-light btn-lilac" href="/cart">BUY NOW</a>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
                 </div>
 
               </div>
               <div className="col g-0">
-              <ReactPlayer url="https://youtu.be/2LCslpHTUME?t=12" muted={true} playing={true}
-                loop={true}
-                width={"100%"}
-                height={900} />
+                <ReactPlayer url="https://youtu.be/2LCslpHTUME?t=12" muted={true} playing={true}
+                  loop={true}
+                  width={"100%"}
+                  height={900} />
 
               </div>
 
