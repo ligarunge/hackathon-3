@@ -5,6 +5,12 @@
     float: left
 }
 
+.blank-image {
+    width: 133px;
+    height: 1px;
+    float: left
+}
+
 .counter {
     width: 3rem;
     height: 3rem;
@@ -21,13 +27,12 @@ padding-right: 0.85rem;
 }
 
 .row-item {
-    border: 1px solid rgb(222, 226, 230);
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 button:hover {
     text-decoration: none !important;
-    color: rgb(33, 37, 41) !important
+    /* color: rgb(33, 37, 41) !important */
   }
 
 .form-control {
@@ -36,4 +41,9 @@ button:hover {
 
 .row-item {
     background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.top-cart-row {
+    padding: 20px;
 }
