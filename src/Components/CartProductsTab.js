@@ -13,9 +13,9 @@ function CartProductsTab() {
                 <div className="col fw-bold">Total</div>
                 <div className="col"></div>
             </div>
-            <div><CartProduct title="Product 1" price="29.99"/></div>
-            <div><CartProduct title="Product 2" price="49.99"/></div>
-            <div><CartProduct title="Product 3" price="99.99"/></div>
+            <div><CartProduct title="Pop Mouse" price="29.99" image="images/cart_images/cartImg1.png"/></div>
+            <div><CartProduct title="Bright Mouse" price="49.99" image="images/cart_images/cartImg2.png"/></div>
+            <div><CartProduct title="Pink Mouse" price="99.99"image="images/cart_images/cartImg3.png"/></div>
         </div>
 
     )
