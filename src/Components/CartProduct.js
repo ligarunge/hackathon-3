@@ -4,6 +4,7 @@ import { useState } from "react";
 function CartProduct(props) {
     const title = props.title;
     const price = props.price;
+    const image = props.image;
     
     const [quantity, setQuantity] = useState(1) 
     
@@ -24,9 +25,9 @@ function CartProduct(props) {
 
     return (
 
-            <div className="row my-3 mx-3 align-items-center row-item">
-                <div className="col"><img src="images/cart_images/cartImg1.png" className="cart-image" /></div>
-                <div className="col fw-bold">{title}</div>
+            <div className="row mt-4 mb-3 mx-3 align-items-center row-item">
+                <div className="col"><img src={image} className="cart-image" /></div>
+                <div className="col "><h6>{title}</h6></div>
                 <div className="col">
                     <div className="row">
                         <div className="col-auto counter"><button onClick={countMinusOne} type="button" className="btn btn-success btn-minus">-</button></div>
