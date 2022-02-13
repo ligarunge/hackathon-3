@@ -43,8 +43,13 @@ function Footer() {
             </div>
             <div className="col-md-2">
             <a className="btn btn-secondary" href="/category">Search</a>
-            
             </div>
+        </div>
+        <div className="row justify-content-end navbar-brand display-1 text-white">
+                <div className="col-md-4 mt-5">
+                <img src="/images/logo_noBackground.png" alt="" width="35" height="40" className="" />
+            ©2022 PearTech. All right reserved
+                </div>
         </div>
     </div>          
             </footer>
