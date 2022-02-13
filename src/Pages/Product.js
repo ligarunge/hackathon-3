@@ -1,4 +1,5 @@
 import FancyBox from "../Components/FancyBox";
+import MouseColorChange from "../Components/MouseColorChange";
 import "./Product.css"
 
 function Product() {
@@ -11,6 +12,16 @@ function Product() {
                     
             }}>
                 <div className="container">
+                <div className="row pt-1">
+                    <nav aria-label="breadcrumb">
+                        <ol className="breadcrumb">
+                            <li className="breadcrumb-item"><a className="link-none" href="/">Home</a></li>
+                            <li className="breadcrumb-item"><a className="link-none" href="/categories">Categories</a></li>
+                            <li className="breadcrumb-item"><a className="link-none" href="/category">Mice</a></li>
+                            <li className="breadcrumb-item active" aria-current="page">POP Mouse</li>
+                        </ol>
+                    </nav>
+                </div>
                     <div className="row text-center">
                         <div className="col-12 mt-5">
                             <p className="display-1">POP mouse</p>
@@ -22,7 +33,7 @@ function Product() {
                                 <span className="display-6">€29.99</span> 
                                 </div>
                                 <div className="col-md-6">
-                                    <a className="btn btn-light btn-lilac" href="/cart">BUY NOW</a>
+                                    <a className="btn btn-light btn-lilac" href="/cart">Buy now</a>
                                   
                                 </div>
                             
@@ -39,6 +50,15 @@ function Product() {
                                     <p>Get to know the playful, wireless POP Mouse, designed to make personality shine on your desktop and beyond. Pick the POP Mouse you love most from our range of designs, and make it your own with fun emoji customization. The top button is where the fun begins. Choose from a menu of emoji for your chats, or assign the button through PearTech software to send your favorite emoji in a tap. If that's not up your street, you can always assign the button to other non-emoji shortcuts - like Mic Mute or Snip Screen. As if reading your mind, the POP Mouse SmartWheel shifts from high-precision to speed scroll mode - helping you whizz through long pages with a flick of the wheel.</p>
                                 </div>
                             </div>
+                            <div className="row align-items-center">
+                                <div className="col-8 m-3 p-4 rounded" style={{backgroundColor:'whitesmoke'}}>
+                                    <p className="display-6">Choose your aesthetic</p>
+                                </div>
+                            </div>
+                            <div className="row align-items-center">
+                              <MouseColorChange />
+                            </div>
+                           
                         </div>
                     </div>
                 </div>
