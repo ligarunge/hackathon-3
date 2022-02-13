@@ -64,6 +64,9 @@
     justify-content: center;
 }
 
+.header-colored {
+    background-color: #A8E0DD
+}
 .category-image-left {
     max-width: 200px;
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
@@ -92,4 +95,12 @@
 .product-card-link {
     color: #1c1c1c;
     text-decoration: none;
+}
+
+.product-card-link:hover {
+    color: #07ccc2;
+}
+
+.product-card-link:focus {
+    color: #07ccc2;
 }

@@ -15,7 +15,7 @@ export default function ProductCardBottom() {
     })        
     
     return (
-        <div className="all-cards">
+        <div className="all-cards mt-5">
             <section className="cards-list">
                 {cards}
             </section>
