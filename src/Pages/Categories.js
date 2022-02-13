@@ -17,8 +17,16 @@ function Categories() {
                     backgroundRepeat: 'no-repeat'
         }}>
             <div className="container">
+                <div className="row pt-1">
+                    <nav aria-label="breadcrumb">
+                        <ol className="breadcrumb">
+                            <li className="breadcrumb-item"><a className="link-none" href="/">Home</a></li>
+                            <li className="breadcrumb-item active" aria-current="page">Categories</li>
+                        </ol>
+                    </nav>
+                </div>
                 <div className="row justify-content-end display-5">
-                    <div className="col-md-4 mt-5">
+                    <div className="col-md-4 mt-1">
                         <div className="row justify-content-end">
                         Find the best
                         </div>

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./MouseColorChange.css"
 
 function MouseColorChange() {
     const [image, setImage] = useState('images/MouseColor1.jpg')
@@ -24,13 +25,13 @@ function MouseColorChange() {
         <div className="col-8 m-3 p-4 rounded">
             <div className="row justify-content-between">
                 <div className="col-md-3 rounded" style={{backgroundColor: 'whitesmoke'}}>
-                    <button className="btn" onClick={showImage1}><img className="img-fluid" src="/images/ColorChoice1.png"></img></button>
+                    <button className="btn btn-NoBorder" onClick={showImage1}><img className="img-fluid" src="/images/ColorChoice1.png"></img></button>
                 </div>
                 <div className="col-md-3 rounded" style={{backgroundColor: 'whitesmoke'}}>
-                    <button className="btn" onClick={showImage2}><img className="img-fluid" src="/images/ColorChoice2.png"></img></button>
+                    <button className="btn btn-NoBorder" onClick={showImage2}><img className="img-fluid" src="/images/ColorChoice2.png"></img></button>
                 </div>
                 <div className="col-md-3 rounded" style={{backgroundColor: 'whitesmoke'}}>
-                    <button className="btn" onClick={showImage3}><img className="img-fluid" src="/images/ColorChoice3.png"></img></button>
+                    <button className="btn btn-NoBorder" onClick={showImage3}><img className="img-fluid" src="/images/ColorChoice3.png"></img></button>
                 </div>
             </div>
             <div className="row mt-3">
@@ -41,6 +42,11 @@ function MouseColorChange() {
             <div className="row">
                 <div className="col-12 m-3 p-4 rounded" style={{backgroundColor:'whitesmoke', textAlign: 'justify'}}>
                     <p>{description}</p>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-12 m-3 mt-0 p-4 rounded">
+                <a className="btn btn-light btn-lilac" href="/cart">Add to cart</a>
                 </div>
             </div>
         </div>
