@@ -5,7 +5,7 @@ import ProductCardBottom from '../Components/ProductCardBottom'
  
 export default function Category1() {
     return (
-        <div className="category-page ms-5">
+        <div className="category-page">
             <ProductCardTop />
             <ProductCardBottom />
         </div>
