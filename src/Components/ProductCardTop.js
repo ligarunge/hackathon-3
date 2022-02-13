@@ -15,7 +15,6 @@ export default function ProductCardTop() {
                     </nav>
                 </div>
             <div className="category-top-header">
-                
                 <h1 className="category-header mt-3 display-3">Mice</h1>
             </div>
            
