@@ -42,7 +42,8 @@ function Footer() {
             <InputHelp />
             </div>
             <div className="col-md-2">
-            <button className="btn btn-light"><span className="h6">Search</span></button>
+            <a className="btn btn-secondary" href="/category">Search</a>
+            
             </div>
         </div>
     </div>          
