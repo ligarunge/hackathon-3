@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import "./Header.css"
 
 function Header() {
     return (
@@ -15,10 +14,10 @@ function Header() {
                             <Link className="nav-link active text-white" to='/'>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-secondary" to='/categories'>Categories</Link>
+                            <Link className="nav-link text-white" to='/categories'>Categories</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-secondary" to='/cart'>Cart</Link>
+                            <Link className="nav-link text-white" to='/cart'>Cart</Link>
                         </li>
                     </ul>
                 </div>

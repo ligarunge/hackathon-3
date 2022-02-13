@@ -1,4 +1,6 @@
 import "./Carousel.css"
+import ReactPlayer from "react-player";
+import FancyBox from "../Components/FancyBox";
 
 function Carousel() {
   return (
@@ -10,19 +12,22 @@ function Carousel() {
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
             aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
             aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
         </div>
 
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/images/comp1.jpg" class="d-block w-100 img-fluid" alt="..." />
-            <div class="card-img-overlay text-white text-center">
+            <ReactPlayer url="https://youtu.be/D5HVFFEDJkw?t=10" muted={true} playing={true}
+              loop={true}
+              width={"100%"}
+              height={900} />
+            {/* <div class="card-img-overlay text-white text-center">
               <div class="card-title display-5">Computer Accessories</div>
               <p class="card-text">Selection of the best computer accessories in Europe</p>
               <button className="btn btn-outline-light">Learn more</button>
-            </div>
+            </div> */}
           </div>
           <div className="carousel-item">
             <div className="row border-bottom">
@@ -40,12 +45,41 @@ function Carousel() {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="/images/slider-3.jpeg" class="d-block w-100 img-fluid" alt="..." />
-            <div class="card-img-overlay text-white text-center">
+            <div className="row">
+              <div className="col g-0">
+                <div class="" style={{backgroundColor:"black", height:"900px"}}>
+                  {/* <div className="container"> */}
+                    <div className="col-md-4 align-self-center">
+                            <FancyBox /> 
+                            <div className="row m-3 p-3 rounded align-items-center" style={{backgroundColor:'whitesmoke'}}>
+                                <div className="col-md-6">
+                                <span className="display-6">€29.99</span> 
+                                </div>
+                                <div className="col-md-6">
+                                    <a className="btn btn-light btn-lilac" href="/cart">BUY NOW</a>
+                                  
+                                </div>
+                            
+                            </div>
+                        </div>
+                  {/* </div> */}
+                </div>
+
+              </div>
+              <div className="col g-0">
+              <ReactPlayer url="https://youtu.be/2LCslpHTUME?t=12" muted={true} playing={true}
+                loop={true}
+                width={"100%"}
+                height={900} />
+
+              </div>
+
+            </div>
+            {/* <div class="card-img-overlay text-white text-center">
               <div class="card-title display-5">Computer Accessories</div>
               <p class="card-text">Selection of the best computer accessories in Europe</p>
               <button className="btn btn-outline-light">Learn more</button>
-            </div>
+            </div> */}
           </div>
           <div className="carousel-item">
             <img src="images/keyboard3.jpg" class="d-block w-100 img-fluid" alt="..." />
@@ -68,7 +102,7 @@ function Carousel() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+    </div >
   )
 }
 export default Carousel;
