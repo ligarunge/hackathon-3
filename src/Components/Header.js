@@ -4,7 +4,7 @@ import "./Header.css"
 function Header() {
     return (
         <div>
-            <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <nav className="navbar navbar-dark bg-dark">
                 <div className="container-fluid">
                     <a className="navbar-brand display-1 ">
                         <img src="/images/logo_noBackground.png" alt="" width="35" height="40" className="d-inline-block pb-1 mx-2 align-text-center" />

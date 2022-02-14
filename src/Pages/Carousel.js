@@ -23,11 +23,11 @@ function Carousel() {
             <ReactPlayer url="https://youtu.be/D5HVFFEDJkw" muted={true} playing={true}
               loop={true}
               width={"100%"}
-              height={750} />
+              height={690} />
            
           </div>
           <div className="carousel-item">
-            <div className="row border-bottom bg-dark" style={{height: '750px'}}>
+            <div className="row border-bottom bg-dark" style={{height: '690px'}}>
               <div className="col align-self-center g-0" >
               <div className="card-body text-center" style={{ width: '50%', position: 'relative', top: '30%', left: '40%'  }}>
                   <div className="display-1 text-white"><strong style={{ color: '#fdd600', fontSize: '6rem' }}>POP</strong> Mouse</div>
@@ -36,9 +36,7 @@ function Carousel() {
                 </div>
               </div>
               <div className="col g-0">
-                <div className="row">
-                  <h1>Why not</h1>
-                </div>
+                
                 <div className="row">
                 <img src="/images/pop-mouse-noBG.png" class="p-5 w-100 img-fluid" alt="..." />
 
@@ -50,7 +48,7 @@ function Carousel() {
           <div className="carousel-item">
             <div className="row">
               <div className="col g-0">
-                <div class="" style={{ backgroundColor: "black", height: "750px" }}>
+                <div class="" style={{ backgroundColor: "black", height: "690px" }}>
                 <div className="card-body text-center" style={{ width: '50%', position: 'relative', top: '30%', left: '40%'  }}>
                   <div className="display-1 text-white"><strong style={{ color: 'rgb(255,41,71)', fontSize: '6rem' }}>POP</strong> Key</div>
                   <p className="mt-4 text-white">Wireless Mechanical Keyboards with customizable Emoji</p>
@@ -64,7 +62,7 @@ function Carousel() {
                 <ReactPlayer url="https://youtu.be/2LCslpHTUME?t=12" muted={true} playing={true}
                   loop={true}
                   width={"100%"}
-                  height={750} />
+                  height={690} />
 
               </div>
 
@@ -76,11 +74,10 @@ function Carousel() {
             </div> */}
           </div>
           <div className="carousel-item">
-            <img src="images/keyboard3.jpg" class="d-block w-100 img-fluid" alt="..." />
-            <div class="card-img-overlay text-white text-start m-5 p-5">
-              <div class="card-title display-5">Computer Accessories</div>
-              <p class="card-text">Selection of the best computer accessories in Europe</p>
-              <button className="btn btn-outline-light">Learn more</button>
+            <img src="images/grumpy-cat.jpg" class="d-block w-100 img-fluid" alt="..." />
+            <div class="card-img-overlay text-white text-end m-5 p-5" style={{top: '25%', right: '10%'}}>
+              <div class="card-title display-5" >Would you like any</div>
+              <div class="card-title display-5">Computer Accessories?</div>
             </div>
           </div>
         </div>
