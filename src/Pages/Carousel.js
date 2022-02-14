@@ -23,6 +23,11 @@ function Carousel() {
               loop={true}
               width={"100%"}
               height={750} />
+            {/* <div class="card-img-overlay text-start text-wrap m-5 p-5 ">
+              <div class="card-title display-5">Computer Accessories</div>
+              <p class="card-text">Selection of the best computer accessories in Europe</p>
+              {/* <button className="btn btn-outline-light">Learn more</button> */}
+            {/* </div> */} */}
           </div>
           <div className="carousel-item">
             <div className="row border-bottom bg-dark" style={{height: '750px'}}>
