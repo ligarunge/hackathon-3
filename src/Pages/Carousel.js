@@ -1,6 +1,7 @@
 import "./Carousel.css"
 import ReactPlayer from "react-player";
 import FancyBox from "../Components/FancyBox";
+import { Link } from "react-router-dom"
 
 function Carousel() {
   return (
@@ -54,7 +55,7 @@ function Carousel() {
                   <div className="display-1 text-white"><strong style={{ color: 'rgb(255,41,71)', fontSize: '6rem' }}>POP</strong> Key</div>
                   <p className="mt-4 text-white">Wireless Mechanical Keyboards with customizable Emoji</p>
                   <button className="btn" style={{ backgroundColor: 'rgb(255,41,71)' }}>Learn more</button>
-                  <Link className="link-none" to="/category">{name}</Link>
+                  {/* <Link className="link-none" to="/category">{na</Link> */}
                 </div>
                 </div>
 
