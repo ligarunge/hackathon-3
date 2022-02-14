@@ -2,7 +2,7 @@ import CategoryItem from "../Components/CategoryItem";
 import Footer from "../Components/Footer";
 import Carousel from "./Carousel";
 import categories from "../Data/categories";
-import CategoryItemReversed from "../Components/CategoryItemReversed";
+import CategoryItemHome from "../Components/CategoryItemHome";
 
 
 function Home() {
@@ -13,14 +13,14 @@ function Home() {
       <div className="container">
           <div className="display-5 my-4">Categories</div>
           <div className="row">
-            <div className="col">
-          <CategoryItem name={categories[0].name} description={categories[0].description} imageUrl={categories[0].imageUrl}/>
+            <div className="col d-flex">
+          <CategoryItemHome name={categories[0].name} description={categories[0].description} imageUrl={categories[0].imageUrl}/>
+            </div>
+            <div className="col d-flex">
+            <CategoryItemHome name={categories[0].name} description={categories[0].description} imageUrl={categories[0].imageUrl}/>
             </div>
             <div className="col">
-          <CategoryItem name={categories[0].name} description={categories[0].description} imageUrl={categories[0].imageUrl}/>
-            </div>
-            <div className="col">
-          <CategoryItem name={categories[0].name} description={categories[0].description} imageUrl={categories[0].imageUrl}/>
+            <CategoryItemHome name={categories[0].name} description={categories[0].description} imageUrl={categories[0].imageUrl}/>
             </div>
           </div>
           {/* <CategoryItemReversed name={categories[1].name} description={categories[1].description} imageUrl={categories[1].imageUrl}/>
