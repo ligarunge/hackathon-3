@@ -49,18 +49,11 @@ function Carousel() {
             <div className="row">
               <div className="col g-0">
                 <div class="" style={{ backgroundColor: "black", height: "750px" }}>
-                  <div className="row align-items-center">
-                    <div className="col-md-4 display-5 text-white ps-5 pt-5"></div>
-                    <div className="col-md-4 pt-5">
-                      
-                    </div>
-                    <div className="col-md-4">
-                    
-                      
-
-                    </div>
-
-                  </div>
+                <div className="card-body text-center" style={{ width: '50%', position: 'relative', top: '30%', left: '40%'  }}>
+                  <div className="display-1 text-white"><strong style={{ color: 'rgb(200, 173, 224)' }}>POP</strong> Mouse</div>
+                  <p className="mt-4 text-white">Wireless mouse with customizable Emoji</p>
+                  <button className="btn btn-warning" style={{ backgroundColor: 'rgb(200, 173, 224)' }}>Learn more</button>
+                </div>
                 </div>
 
               </div>
