@@ -19,27 +19,29 @@ function Carousel() {
 
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <ReactPlayer url="https://youtu.be/D5HVFFEDJkw?t=10" muted={true} playing={true}
+            <ReactPlayer url="https://youtu.be/D5HVFFEDJkw" muted={true} playing={true}
               loop={true}
               width={"100%"}
               height={750} />
-            {/* <div class="card-img-overlay text-white text-center">
-              <div class="card-title display-5">Computer Accessories</div>
-              <p class="card-text">Selection of the best computer accessories in Europe</p>
-              <button className="btn btn-outline-light">Learn more</button>
-            </div> */}
+           
           </div>
           <div className="carousel-item">
-            <div className="row border-bottom">
+            <div className="row border-bottom bg-dark" style={{height: '750px'}}>
               <div className="col align-self-center g-0" >
                 <div className="card-body text-center" style={{ width: '50%', margin: 'auto' }}>
-                  <div className="display-1"><strong style={{ color: '#fdd600' }}>POP</strong> Mouse</div>
-                  <p className="mt-4">Wireless mouse with customizable Emoji</p>
+                  <div className="display-1 text-white"><strong style={{ color: '#fdd600' }}>POP</strong> Mouse</div>
+                  <p className="mt-4 text-white">Wireless mouse with customizable Emoji</p>
                   <button className="btn btn-warning" style={{ backgroundColor: '#fdd600' }}>Learn more</button>
                 </div>
               </div>
               <div className="col g-0">
-                <img src="/images/mouse_logitech_yellow.jpg" class="d-block w-100 img-fluid" alt="..." />
+                <div className="row">
+                  <h1>Why not</h1>
+                </div>
+                <div className="row">
+                <img src="/images/pop-mouse-noBG.png" class="p-5 w-100 img-fluid" alt="..." />
+
+                </div>
 
               </div>
             </div>
@@ -47,25 +49,12 @@ function Carousel() {
           <div className="carousel-item">
             <div className="row">
               <div className="col g-0">
-                <div class="" style={{ backgroundColor: "black", height: "900px" }}>
-                  <div className="row align-items-center">
-                    <div className="col-md-4 display-5 text-white ps-5 pt-5"></div>
-                    <div className="col-md-4 pt-5">
-                      <FancyBox />
-                    </div>
-                    <div className="col-md-4">
-                      <div className="row m-3 p-3 rounded align-items-center" style={{ backgroundColor: 'whitesmoke' }}>
-                        <div className="col-md-6">
-                          <span className="display-6">€29.99</span>
-                        </div>
-                        <div className="col-md-6">
-                          <a className="btn btn-light btn-lilac" href="/cart">BUY NOW</a>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
+                <div class="" style={{ backgroundColor: "black", height: "750px" }}>
+                <div className="card-body text-center" style={{ width: '50%', position: 'relative', top: '30%', left: '40%'  }}>
+                  <div className="display-1 text-white"><strong style={{ color: 'rgb(200, 173, 224)' }}>POP</strong> Mouse</div>
+                  <p className="mt-4 text-white">Wireless mouse with customizable Emoji</p>
+                  <button className="btn btn-warning" style={{ backgroundColor: 'rgb(200, 173, 224)' }}>Learn more</button>
+                </div>
                 </div>
 
               </div>
@@ -73,7 +62,7 @@ function Carousel() {
                 <ReactPlayer url="https://youtu.be/2LCslpHTUME?t=12" muted={true} playing={true}
                   loop={true}
                   width={"100%"}
-                  height={900} />
+                  height={750} />
 
               </div>
 
