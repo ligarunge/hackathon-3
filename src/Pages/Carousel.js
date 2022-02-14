@@ -28,10 +28,10 @@ function Carousel() {
           <div className="carousel-item">
             <div className="row border-bottom bg-dark" style={{height: '750px'}}>
               <div className="col align-self-center g-0" >
-                <div className="card-body text-center" style={{ width: '50%', margin: 'auto' }}>
-                  <div className="display-1 text-white"><strong style={{ color: '#fdd600' }}>POP</strong> Mouse</div>
-                  <p className="mt-4 text-white">Wireless mouse with customizable Emoji</p>
-                  <button className="btn btn-warning" style={{ backgroundColor: '#fdd600' }}>Learn more</button>
+              <div className="card-body text-center" style={{ width: '50%', position: 'relative', top: '30%', left: '40%'  }}>
+                  <div className="display-1 text-white"><strong style={{ color: '#fdd600', fontSize: '6rem' }}>POP</strong> Mouse</div>
+                  <p className="mt-4 text-white">Wireless Mouse with customizable Emoji</p>
+                  <button className="btn" style={{ backgroundColor: '#fdd600' }}>Learn more</button>
                 </div>
               </div>
               <div className="col g-0">
@@ -51,9 +51,10 @@ function Carousel() {
               <div className="col g-0">
                 <div class="" style={{ backgroundColor: "black", height: "750px" }}>
                 <div className="card-body text-center" style={{ width: '50%', position: 'relative', top: '30%', left: '40%'  }}>
-                  <div className="display-1 text-white"><strong style={{ color: 'rgb(200, 173, 224)' }}>POP</strong> Mouse</div>
-                  <p className="mt-4 text-white">Wireless mouse with customizable Emoji</p>
-                  <button className="btn btn-warning" style={{ backgroundColor: 'rgb(200, 173, 224)' }}>Learn more</button>
+                  <div className="display-1 text-white"><strong style={{ color: 'rgb(255,41,71)', fontSize: '6rem' }}>POP</strong> Key</div>
+                  <p className="mt-4 text-white">Wireless Mechanical Keyboards with customizable Emoji</p>
+                  <button className="btn" style={{ backgroundColor: 'rgb(255,41,71)' }}>Learn more</button>
+                  <Link className="link-none" to="/category">{name}</Link>
                 </div>
                 </div>
 
