@@ -22,7 +22,7 @@ function Carousel() {
             <ReactPlayer url="https://youtu.be/D5HVFFEDJkw?t=10" muted={true} playing={true}
               loop={true}
               width={"100%"}
-              height={900} />
+              height={750} />
             {/* <div class="card-img-overlay text-white text-center">
               <div class="card-title display-5">Computer Accessories</div>
               <p class="card-text">Selection of the best computer accessories in Europe</p>
