@@ -2,6 +2,7 @@
 import Footer from "../Components/Footer";
 import Carousel from "./Carousel";
 import categories from "../Data/categories";
+import CategoryItemHome from "../Components/CategoryItemHome";
 
 
 function Home() {
@@ -10,9 +11,7 @@ function Home() {
      <Carousel />
 
       <div className="container">
-          <div className="display-5 my-4">Categories</div>
           <div className="row">
-<<<<<<< HEAD
                 <div className="col-md-4">
                 <CategoryItemHome name={categories[0].name} description={categories[0].description} imageUrl={categories[0].imageUrl}/>
                 </div>
@@ -22,14 +21,7 @@ function Home() {
                 <div className="col-md-4">
                 <CategoryItemHome name={categories[2].name} description={categories[2].description} imageUrl={categories[2].imageUrl}/> 
                 </div>
-            </div>
-=======
-
-            
           </div>
-
-            
->>>>>>> main
       </div>
 
     </div>

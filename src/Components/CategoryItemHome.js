@@ -12,8 +12,8 @@ function CategoryItemHome(props) {
                         <img  className="img-fluid rounded" src={imageUrl}/>  
                 </div>
                 <div className="col-md-8 rounded">
-                    <div className="row mt-1">
-                    <Link className="link-none display-6" style={{fontSize: '2rem'}} to="/category">{name}</Link>
+                    <div className="row mt-3">
+                    <Link className="link-none display-6" style={{fontSize: ''}} to="/category">{name}</Link>
                     </div>
                     <div className="row m-1 small" style={{textAlign: 'justify'}}>
                     {description} 
