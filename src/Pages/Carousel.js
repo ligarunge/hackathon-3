@@ -19,7 +19,7 @@ function Carousel() {
 
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <ReactPlayer url="https://youtu.be/D5HVFFEDJkw?t=10" muted={true} playing={true}
+            <ReactPlayer url="https://youtu.be/D5HVFFEDJkw" muted={true} playing={true}
               loop={true}
               width={"100%"}
               height={750} />
