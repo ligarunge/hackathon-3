@@ -15,7 +15,7 @@ function CategoryItemHome(props) {
                     <div className="row mt-3">
                     <Link className="link-none display-6" style={{fontSize: ''}} to="/category">{name}</Link>
                     </div>
-                    <div className="row m-1 small" style={{textAlign: 'justify'}}>
+                    <div className="row m-1 small">
                     {description} 
                     </div>
                 </div>
