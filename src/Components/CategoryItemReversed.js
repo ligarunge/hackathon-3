@@ -12,7 +12,7 @@ function CategoryItemReversed(props) {
                     <div className="row m-4 display-5">
                     <Link className="link-none" to="/category">{name}</Link>
                     </div>
-                    <div className="row m-5" style={{textAlign: 'justify'}}>
+                    <div className="row m-5">
                     {description} 
                     </div>
                 </div>
