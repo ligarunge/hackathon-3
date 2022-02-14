@@ -8,10 +8,10 @@ function Cart() {
        <div> 
            <div className="mt-0 mb-4 top-title">
            <div className="container">
-                <div className="row pt-1">
+                <div className="row pt-1 mb-3">
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb">
-                            <li className="breadcrumb-item"><a className="link-none" href="/">Home</a></li>
+                            <li className="breadcrumb-item"><a className="link-none cart-breadcrumb-item" href="/">Home</a></li>
                             <li className="breadcrumb-item active" aria-current="page">Shopping Cart</li>
                         </ol>
                     </nav>

@@ -12,8 +12,15 @@
 }
 
 .top-title {
-  background-color: #f5f5f5;
-  padding: 13px;
-  background-image: url(../../public/images/cart_images/imgBackgr.jpg);           
+  color: #f5f5f5;
+  padding: 3rem;
+  background-image: url(../../public/images/cart_images/imgBackgr3.jpg);  
+  background-repeat: no-repeat;
+  background-size: cover;     
+  background-position: center;    
 
+}
+
+.cart-breadcrumb-item {
+  color: #f5f5f5;
 }
