@@ -1,6 +1,6 @@
 import "./Carousel.css"
 import ReactPlayer from "react-player";
-import FancyBox from "../Components/FancyBox";
+import FancyBox from "./FancyBox";
 import { Link } from "react-router-dom"
 
 function Carousel() {
@@ -32,7 +32,7 @@ function Carousel() {
               <div className="card-body text-center" style={{ width: '50%', position: 'relative', top: '30%', left: '40%'  }}>
                   <div className="display-1 text-white"><strong style={{ color: '#fdd600', fontSize: '6rem' }}>POP</strong> Mouse</div>
                   <p className="mt-4 text-white">Wireless Mouse with customizable Emoji</p>
-                  <button className="btn" style={{ backgroundColor: '#fdd600' }}>Learn more</button>
+                  <a className="btn" style={{ backgroundColor: '#fdd600' }} href="/category">Learn more</a>
                 </div>
               </div>
               <div className="col g-0">
@@ -52,8 +52,7 @@ function Carousel() {
                 <div className="card-body text-center" style={{ width: '50%', position: 'relative', top: '30%', left: '40%'  }}>
                   <div className="display-1 text-white"><strong style={{ color: 'rgb(255,41,71)', fontSize: '6rem' }}>POP</strong> Key</div>
                   <p className="mt-4 text-white">Wireless Mechanical Keyboards with customizable Emoji</p>
-                  <button className="btn" style={{ backgroundColor: 'rgb(255,41,71)' }}>Learn more</button>
-                  {/* <Link className="link-none" to="/category">{na</Link> */}
+                  <a className="btn" style={{ backgroundColor: 'rgb(255,41,71)' }} href="/category">Learn more</a>
                 </div>
                 </div>
 
@@ -74,10 +73,11 @@ function Carousel() {
             </div> */}
           </div>
           <div className="carousel-item">
-            <img src="images/grumpy-cat.jpg" class="d-block w-100 img-fluid" alt="..." />
-            <div class="card-img-overlay text-white text-end m-5 p-5" style={{top: '25%', right: '10%'}}>
-              <div class="card-title display-5" >Would you like any</div>
-              <div class="card-title display-5">Computer Accessories?</div>
+            <img src="images/cat-carousel.jpg" class="d-block w-100 img-fluid" alt="..." />
+            <div class="card-img-overlay text-white text-start m-5 p-5" style={{left: '10%'}}>
+            <div className="display-1 text-white"><strong style={{ color: '#2596be', fontSize: '6rem' }}>POP</strong> Cat</div>
+            <p className="mt-4 text-white">Wireless Automatic Mice Hunter With Uncontrollable Emoji</p>
+                  {/* <button className="btn" style={{ backgroundColor: 'rgb(255,41,71)' }}>Learn more</button> */}
             </div>
           </div>
         </div>
