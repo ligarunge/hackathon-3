@@ -14,7 +14,7 @@ const categories = [
     {
         title: 'Category3',
         name: 'Headsets',
-        description: 'Shop wired headsets with USB or 3.5 mm connections and is certified to work on popular conferencing apps. Look and sound your best on video calls with Zone Wired Earbuds. Advanced noise-canceling mics on the left earbud clearly capture your every word. In-ear sound is studio quality. Instantly connect your phone1Check device specifications to verify compatibility, tablet1Check device specifications to verify compatibility or computer to create a zone of your own wherever you work.',
+        description: 'Shop wired headsets with USB or 3.5 mm connections and is certified to work on popular conferencing apps. Look and sound your best on video calls with Zone Wired Earbuds. Advanced noise-canceling mics on the left earbud clearly capture your every word. In-ear sound is studio quality. Instantly connect your phone.',
         imageUrl: '/images/headsets-category2.jpg',
     }
     

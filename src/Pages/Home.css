@@ -1,0 +1,9 @@
+.d-block {
+  height: 940px;
+  object-fit: cover;
+}
+
+.card-body {
+  border: 3px yellow;
+}
+

@@ -1,12 +1,26 @@
-.nav-link { text-decoration: none;
+.container-cart .nav-link { text-decoration: none;
     color: rgb(33, 37, 41)
   }
 
-.nav-link:hover {
+.container-cart .nav-link:hover {
   text-decoration: none;
   color: rgb(33, 37, 41)
 }
 
 .container-height {
   min-height: 35rem;
+}
+
+.top-title {
+  color: #f5f5f5;
+  padding: 3rem;
+  background-image: url(../../public/images/cart_images/imgBackgr3.jpg);  
+  background-repeat: no-repeat;
+  background-size: cover;     
+  background-position: center;    
+
+}
+
+.cart-breadcrumb-item {
+  color: #f5f5f5;
 }

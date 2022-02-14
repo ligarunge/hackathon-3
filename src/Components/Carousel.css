@@ -1,5 +1,5 @@
 .d-block {
-  height: 940px;
+  height: 690px;
   object-fit: cover;
 }
 
@@ -7,11 +7,11 @@
   border: 3px yellow;
 }
 
-.card-image-overlay {
+/* .card-image-overlay {
   display: flex;
   width: 50%;
   height: 200px;
-  margin: auto;
+  margin: 20px;
   align-items:center;
   justify-content:center;
- }
+ } */
